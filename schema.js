@@ -1,5 +1,5 @@
-import {Profile} from './profile'
-import {Post} from './post'
+import {Profile} from './schemas/profile'
+import {Post} from './schemas/post'
 
 type Query {
  author(firstName: String, lastName: String): Profile
