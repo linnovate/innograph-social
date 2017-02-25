@@ -1,0 +1,23 @@
+{
+  "name": "innograph-social",
+  "version": "1.0.0",
+  "description": "Social innographe schemas and components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnovate/innograph-social.git"
+  },
+  "keywords": [
+    "innograph",
+    "social"
+  ],
+  "author": "lior@linnovate.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linnovate/innograph-social/issues"
+  },
+  "homepage": "https://github.com/linnovate/innograph-social#readme"
+}
