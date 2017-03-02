@@ -1,10 +1,10 @@
-type Post {
-  id: Int
-  title: String
-  text: String
-  views: Int
-  author: Author
-}
-r
-export default [Post]
+import Profile from './profile.js';
 
+const Post = `
+  type Post {
+    title: String
+    author: Profile
+  }
+`;
+
+export default () => [Post, Profile];
